@@ -1,14 +1,15 @@
 {
-  "name": "MyPeerServer",
+  "name": "mypeerserver",
   "version": "1.0.0",
   "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "peerjs --port 80 --key peerjs --path /"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "peerjs": "^1.2.0"
+    "peer": "^0.5.3"
   }
 }
